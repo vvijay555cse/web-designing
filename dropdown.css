@@ -1,0 +1,152 @@
+*
+{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+body
+{
+       background-image:url("/home/vijaykumar/Downloads/background.jpg");
+		background-size:cover;
+		background-position:center;
+	font-family:sans-serif
+		}
+body h2{
+	text-align:center;
+	background-color:skyblue;
+}
+.menu-bar
+{
+	background:rgb(0,100,0);
+	text-align:center;
+}
+.menu-bar ul
+{
+	display:inline-flex;
+	list-style:none;
+	color:white;
+}
+.menu-bar ul li{
+	width:120px;
+	margin:15px;
+		padding:15px;
+	
+}
+	.menu-bar ul li a{
+		text-decoration:none;
+		color:#fff;
+}
+.active, .menu-bar ul li:hover
+{
+	background-color:#2bab0d;
+	border-radius:3px;
+}
+.sub-menu-1{
+	display:none;
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+	display:block;
+	position:absolute;
+	background:rgb(0,100,0);
+	margin-top:15px;
+	margin-left:15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+	display:block;
+	margin:10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul a:hover
+{
+	color:yellow;
+}
+.sub-menu-2{
+	display:none;
+}
+.menu-bar ul li:hover .sub-menu-2
+{
+	display:block;
+	position:absolute;
+	background:rgb(0,100,0);
+	margin-top:15px;
+	margin-left:15px;
+}
+.menu-bar ul li:hover .sub-menu-2 ul
+{
+	display:block;
+	margin:10px;
+}
+.menu-bar ul li:hover .sub-menu-2 ul a:hover
+{
+	color:yellow;
+}
+.center{
+	position:absolute;
+	top:25%;
+	left:1%;
+  box-sizing: border-box;
+    margin-top: 6px;
+  margin-bottom: 16px;
+  padding:20px;
+	background:#f2f2f2;
+	border-radius:20px;
+	
+}
+#vijay{
+	width:200px;
+	height:20px;
+	
+	
+	
+}
+#vijay1{
+	width:200px;
+	height:20px;
+}
+#v{
+	width:100px;
+	height:20px;
+	background-color:skyblue;
+	border-radius:20px;
+	padding:1px;
+	text-align:center;
+}
+
+
+
+}
+.center h1{
+	padding:0 0 20px 0;
+	border-bottom:1px solid silver;
+}
+
+.container{
+	position:absolute;
+	width:600px;
+	top:25%;
+	left:50%;
+	bord-radius:5px;
+	background-color:#f2f2f2;
+	padding:20px;
+}
+input[type=text],select,textarea{
+	width:100%;
+	
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+	resize:vertical;
+}
+	
+	#s{
+		width:100px;
+		height:30px;
+		background-color:skyblue;
+	}
+	
+
+	
